@@ -1,0 +1,124 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  position: relative;
+}
+
+.LUCKYDRAW {
+  position: absolute;
+  top: calc(100px + 60px + 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+}
+
+h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+}
+
+.logo {
+  position: absolute;
+  top: calc(100px + 60px + 200px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+}
+
+.light {
+  position: absolute;
+  top: calc(100px + 60px + 0px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+}
+
+.machine-img {
+  position: absolute;
+  top: calc(100px + 60px + 90px + 140px + 120px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: auto;
+  border: 3px solid #000;
+}
+
+.num {
+  display: flex; /* 숫자를 중앙에 배치하기 위해 Flexbox 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center;
+  display: inline-block;
+  width: 10px;
+  height: 30px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #2e2e2e; 
+}
+
+.num-list {
+  display: inline-block;
+  width: 10px;
+  line-height: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+
+#countTest2 {
+  position: absolute;
+  top: calc(100px + 60px + 90px + 140px + 120px + 55px); 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex; 
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 400px;
+  height: 30px;
+  padding: 10px; 
+  margin: 10px 0; 
+  border: 2px solid #b3f624; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  outline: none; 
+  transition: border-color 0.3s; 
+  position: absolute; 
+  top: calc(100px + 60px + 90px + 320px); 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 10; 
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: #b3f624;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: calc(100px + 60px + 90px + 500px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+button:hover {
+  background-color: #74ecff;
+}
+
